@@ -78,7 +78,7 @@ export default function HomeScreen() {
           </View>
 
           <View>
-            <Text style={styles.greeting}>Hi, @Eloike_Anthony</Text>
+            <Text style={styles.greeting}>Hi, @danielpromise</Text>
             <Text style={styles.sub}>Start saving now</Text>
           </View>
         </View>

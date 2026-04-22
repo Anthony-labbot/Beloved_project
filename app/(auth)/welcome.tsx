@@ -13,13 +13,13 @@ export default function HomeScreen() {
   return (
     <View style={[styles.view_, {paddingTop: insets.top, paddingBottom: insets.bottom}]}>
       <ChatBubble />
-      <Image source={require("@/assets/images/Screenshot 2026-04-22 005111.png")} 
+      <Image source={require("@/assets/images/icon.png")} 
         style={
           {height: 160,
            width: 160, 
            borderRadius: 80, 
            borderWidth: 5,
-           borderColor: "#f7da6f",
+           borderColor: "#6ff7f775",
            marginTop: 20}} 
       />
       <View style={styles.inner_view}>

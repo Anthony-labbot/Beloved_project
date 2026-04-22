@@ -82,7 +82,7 @@ export default function MoreScreen() {
             <MaterialIcons name="person" size={42} color={XendColors.iconBg} />
           </View>
           
-          <Text style={styles.username}>@Eloike_Anthony</Text>
+          <Text style={styles.username}>@danielpromise</Text>
 
           <Pressable onPress={copyUsername}>
             <Feather name="copy" size={20} color="#9CA3AF" />

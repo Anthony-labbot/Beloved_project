@@ -9,7 +9,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 export default function Referral() {
     const insets = useSafeAreaInsets()
     const router = useRouter()
-    const referralCode = "XEND-ANTHONY-1234"
+    const referralCode = "XEND-PROMISE"
     const referrals = "0"
     const points = "0"
 
