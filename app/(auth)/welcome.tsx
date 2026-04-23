@@ -1,5 +1,6 @@
 import { BetaText } from '@/components/betaText';
 import { ChatBubble } from '@/components/chatbutton';
+import { TrustFooter } from '@/components/TrustFooter';
 import { XendColors } from '@/constants/xend-theme';
 import { AntDesign, Feather, FontAwesome, Ionicons } from '@expo/vector-icons';
 import { Image } from 'expo-image';
@@ -52,8 +53,7 @@ export default function HomeScreen() {
                                              ]} 
                      ><Text>..Saga</Text></Pressable>
         </View>
-        <BetaText font_Size='small' font_Weight='small'>Created by</BetaText>
-        <BetaText font_Size='medium' font_Weight='small'>Eloike Anthony C</BetaText>
+        <TrustFooter />
       </View>
     </View>
   );

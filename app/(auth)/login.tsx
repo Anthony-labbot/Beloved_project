@@ -44,7 +44,7 @@ export default function LoginScreen() {
           <MaterialIcons name="person" size={42} color={XendColors.iconBg} />
         </View>
         <BetaText font_Size="medium" font_Weight="medium" style={styles.welcome}>
-          Welcome Eloike_Anthony
+          Welcome beloved
         </BetaText>
       </View>
 
